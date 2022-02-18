@@ -1,0 +1,5 @@
+- gcc -o commadline commadline.c
+- ./commadline
+- output
+- ./commadline this is a test
+- output
