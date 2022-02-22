@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	if (argc < 2)  // If there aren't command-line arguments,
 		usage(argv[0], datafile); // display usage message and exit.
 	
-	strcpy(buffer, argc[1]);  // Copy into buffer.
+	strcpy(buffer, argv[1]);  // Copy into buffer.
 	
 	printf("[DEBUG] buffer @ %p: \'%s\'\n", buffer, buffer);
 	printf("[DEBUG] datafile @ %p: \'%s\'\n", datafile, datafile);
